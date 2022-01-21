@@ -2016,17 +2016,176 @@
 #     print("I have no idea.")
 
 
-# ✍️에러 발생시키기
+# # ✍️에러 발생시키기
 
-try:
-    print("한 자리 숫자 나누기 전용 계산기 입니다.")
-    num1 = int(input("첫번쨰 숫자 입력해라 : "))
-    num2 = int(input("두번쨰 숫자 입력해라 : "))
-    if num1 >= 10 or num2 >= 10:
-        raise ValueError
-    print("{0} / {1} = {2}".format(num1, num2, int(num1 / num2)))
+# try:
+#     print("한 자리 숫자 나누기 전용 계산기 입니다.")
+#     num1 = int(input("첫번쨰 숫자 입력해라 : "))
+#     num2 = int(input("두번쨰 숫자 입력해라 : "))
+#     if num1 >= 10 or num2 >= 10:
+#         raise ValueError
+#     print("{0} / {1} = {2}".format(num1, num2, int(num1 / num2)))
 
-except ValueError:
-    print("잘못된 값 입력했쮸, 한자리로만 넣어라!")
+# except ValueError:
+#     print("잘못된 값 입력했쮸, 한자리로만 넣어라!")
 
-    ##BREAT TIME!!! : 5:00:43
+#     ##BREAT TIME!!! : 5:00:43
+
+
+# # ✍️에러 직접만들어보기
+
+
+# class BigNumberError(Exception):
+#     pass
+
+
+# try:
+#     print("한 자리 숫자 나누기 전용 계산기 입니다.")
+#     num1 = int(input("첫번쨰 숫자 입력해라 : "))
+#     num2 = int(input("두번쨰 숫자 입력해라 : "))
+#     if num1 >= 10 or num2 >= 10:
+#         raise BigNumberError
+#     print("{0} / {1} = {2}".format(num1, num2, int(num1 / num2)))
+
+# except ValueError:
+#     print("잘못된 값 입력했쮸, 한자리로만 넣어라!")
+
+# except BigNumberError:
+#     print("잘못된 값 입력했쮸, 다시한번 말하지만 한자리로만 넣어라!")
+
+
+# # ✍️에러 직접만들어보기 :: 클라스에 직접 메세지 추가해보기
+# from black import err
+
+
+# class BigNumberError(Exception):
+#     def __init__(self, msg):
+#         self.msg = msg
+
+#     def __str__(self):
+#         return self.msg
+
+
+# try:
+#     print("한 자리 숫자 나누기 전용 계산기 입니다.")
+#     num1 = int(input("첫번쨰 숫자 입력해라 : "))
+#     num2 = int(input("두번쨰 숫자 입력해라 : "))
+#     if num1 >= 10 or num2 >= 10:
+#         raise BigNumberError("입력값: {0}, {1} 이렇게 두 자리수, 안된다고🤬".format(num1, num2))
+#     print("{0} / {1} = {2}".format(num1, num2, int(num1 / num2)))
+
+# except ValueError:
+#     print("잘못된 값 입력했쮸, 한자리로만 넣어라!")
+
+# except BigNumberError as err:
+#     print("잘못된 값 입력했쮸, 다시한번 말하지만 한자리로만 넣어라!")
+#     print(err)
+
+
+# ✍️Finally 기능
+
+
+# from black import err
+
+
+# class BigNumberError(Exception):
+#     def __init__(self, msg):
+#         self.msg = msg
+
+#     def __str__(self):
+#         return self.msg
+
+
+# try:
+#     print("한 자리 숫자 나누기 전용 계산기 입니다.")
+#     num1 = int(input("첫번쨰 숫자 입력해라 : "))
+#     num2 = int(input("두번쨰 숫자 입력해라 : "))
+#     if num1 >= 10 or num2 >= 10:
+#         raise BigNumberError("입력값: {0}, {1} 이렇게 두 자리수, 안된다고🤬".format(num1, num2))
+#     print("{0} / {1} = {2}".format(num1, num2, int(num1 / num2)))
+
+# except ValueError:
+#     print("잘못된 값 입력했쮸, 한자리로만 넣어라!")
+
+
+# except ZeroDivisionError:
+#     print("왜 이따구 0 집어넣고 난리냐? 엉? 맞을까? 일타 강냉이 5개 각오해 🤬")
+
+# except BigNumberError as err:
+#     print("잘못된 값 입력했쮸, 다시한번 말하지만 한자리로만 넣어라!")
+#     print(err)
+
+
+# finally:
+#     print("계산기를 이용해 주셔서 감사해용요요요용")  # 마지막 주석 달기~ 계산이 잘되도, 오류가 나도, 늘 마지막에 나옴
+
+
+# 👩‍💻QUIZ
+
+# 동네에 항상 대기 손님이 있는 맛있는 치킨집이 있다.
+# 대기 손님의 치킨 요리 시간을 줄이고자 자동 주문 시스템을 제작하였다
+# 시스템 코드를 확인하고 적절한 예외처리 구문을 넣어라
+
+
+# 조건1 : 1보다 작거나 숫자가 아닌 입력값이 들어올 때는 ValueError 로 처리
+#              출력 메시지: "잘못된 값을 입력하였습니다."
+# 조건2 : 대기 손님이 주문할 수있는 총 치킨량은 10마리로 한정
+#              치킨 소진 시 사용자 정의에러[SoldOutError]를 발생시키고 프로그램 종료
+#              출력 메시지: "재고가 소진되어 더이상 주문을 받지 않습니다"
+
+
+# # [활용 코드] =================================================================================
+# chicken = 10
+# waiting = 1  # 홀 안에는 현재 만석, 대기번호 1부터 시작
+# while True:
+#     print("[남은 치킨: {0}]".format(chicken))
+#     order = int(input("치킨 몇마리 주문할건가요?"))
+#     if order > chicken:  # 남은 치킨보다 주문량이 많을때
+#         print("재료가 부족합니다.")
+#     else:
+#         print("[대기번호 {0}] {1} 마리 주문이 완료되었습니다.".format(waiting, order))
+#         waiting += 1
+#         chicken -= order
+# # +++==========================================================================================
+
+
+# 나의 답
+
+
+# ✍️👩‍💻😏 선생님 답 #
+
+
+# class SoldOutError(Exception):
+#     pass
+
+
+# chicken = 10
+# waiting = 1  # 홀 안에는 현재 만석, 대기번호 1부터 시작
+
+
+# while True:
+#     try:
+#         print("[남은 치킨: {0}]".format(chicken))
+#         order = int(input("치킨 몇마리 주문할건가요?"))
+#         if order > chicken:  # 남은 치킨보다 주문량이 많을때
+#             print("재료가 부족합니다.")
+#         elif order <= 0:
+#             raise ValueError
+#         else:
+#             print("[대기번호 {0}] {1} 마리 주문이 완료되었습니다.".format(waiting, order))
+#             waiting += 1
+#             chicken -= order
+
+#         if chicken == 0:
+#             raise SoldOutError
+#     except ValueError:
+#         print("잘못된 값을 입력했쮸")
+#     except SoldOutError:
+#         print("No more orders")
+#         break  # 탈출, 끝낸다라는 종료한다라는 의미
+
+
+# BREAK TIME: 5:15:47
+
+
+# ✍️모듈 연습!
