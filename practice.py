@@ -2017,3 +2017,16 @@
 
 
 # ✍️에러 발생시키기
+
+try:
+    print("한 자리 숫자 나누기 전용 계산기 입니다.")
+    num1 = int(input("첫번쨰 숫자 입력해라 : "))
+    num2 = int(input("두번쨰 숫자 입력해라 : "))
+    if num1 >= 10 or num2 >= 10:
+        raise ValueError
+    print("{0} / {1} = {2}".format(num1, num2, int(num1 / num2)))
+
+except ValueError:
+    print("잘못된 값 입력했쮸, 한자리로만 넣어라!")
+
+    ##BREAT TIME!!! : 5:00:43
