@@ -2188,4 +2188,92 @@
 # BREAK TIME: 5:15:47
 
 
-# ✍️모듈 연습!
+# # ✍️import 모듈 연습! #theater_module.py과 연계가 되어있음
+
+# import theater_module  # 같은 폴더안의 python file일 시, 불러올 수있음. 그냥 파일이름만 적어주면 됨
+
+# theater_module.price(3)  # 위에 어디에서 불러온다라는 값, 적었으면, 한번 더 적어 컴펌해준다.:: 인간 3명이서 영화보러 갔을 때 가격
+# theater_module.price_morning(4)  # 조조할인가격
+# theater_module.price_soldier(4)  # 군인할인가격
+
+
+# # ✍️import 모듈 연습2
+
+
+# import theater_module as mv  # mv는 theater_module너무 기니 짧게 줄임단어,별명이용
+
+# mv.price(6)
+# mv.price_morning(5)
+# mv.price_soldier(5)
+
+
+# # ✍️from/import  모듈 연습2
+# from import 를 쓰면 훨씬더 빠르게 접근용이함.
+
+# from theater_module import *
+
+# # from random import * # *표의 의미는 general, import하려는 파일의 전체 정보를 다 데리고옴
+# price(3)
+# price_morning(5)
+# price_soldier(5)
+
+
+#  ✍️from/import  모듈 연습3
+
+
+# from theater_module import price, price_morning  # 별표를 사용안하고, 내가 축출하려는 것을 범위를 딱 정해줌
+
+# price(5)
+# price_morning(6)
+# price_soldier(2)  # 오류 남, 지정을 안해주었기 때문
+
+
+# #  ✍️from/import  모듈 연습4
+
+# from theater_module import price_soldier as ps  # price_soldier의 별명 ps
+
+# ps(5)
+
+# # ✍️✍️✍️ 패키지 연습 1
+
+# import travel.boston  # 한개만 끌고오기
+
+# trip_to = travel.boston.bostonPackage()
+# trip_to.detail()
+
+# import travel.sydney
+
+# trip_to = travel.sydney.sydneyPackage()
+# trip_to.detail()
+
+
+# ✍️✍️✍️ 패키지 연습 2
+
+# import travel.boston, travel.sydney  # 두개 다 끌고오기
+
+
+# trip_to = travel.boston.bostonPackage()
+# trip_to.detail()
+
+
+# trip_to = travel.sydney.sydneyPackage()
+# trip_to.detail()
+
+
+# # ✍️✍️✍️ 패키지 연습 3:: from/import
+
+# from travel.boston import bostonPackage
+
+# trip_to = bostonPackage()
+# trip_to.detail()
+
+
+# # ✍️✍️✍️ 패키지 연습 4:: from/import
+
+# from travel import sydney
+
+# trip_to = sydney.sydneyPackage()
+# trip_to.detail()
+
+
+## BREAT TIME : 5:30:36
