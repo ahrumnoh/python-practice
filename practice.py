@@ -1950,4 +1950,12 @@
 # # 송파 빌라 월세 500/50 2000년
 
 
-# 예외처리
+# ✍️예외처리:: 어떠한 문제가 발생했을 시, 예외적으로 처리해주는 기능
+
+
+# special calculator for division
+
+print("나누기 전용 계산기")
+num1 = int(input("첫 번째 숫자 입력해라 : "))
+num2 = int(input("첫 번째 숫자 입력해라 : "))
+print("{0} / {1} = {2}".format(num1, num2, int(num1 / num2)))
