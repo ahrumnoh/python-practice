@@ -2312,19 +2312,19 @@
 
 # ✍️✍️✍️ pip install 로 패키지 가져다 쓰기 연습!!
 
-# Google에서 pypi를 찾으르아!!!
+# Google에서 pypi를 찾으르아!!! :: https://pypi.org/
 # 검색: beautifulsoup4 => pip install beautifulsoup4
 # 터미널에 install 시작
 # beautifulsoup4 페이지밑에보면 Project description의 Quick start의
 # 첫번째 세번째줄까지 코드 복사해서 붙여넣기!
 
 
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
-soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
-print((soup.prettify()))  # 복.붙의 코드가 예전버전이라서 () 한번더 전체를 감싸줌
+# soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
+# print((soup.prettify()))  # 복.붙의 코드가 예전버전이라서 () 한번더 전체를 감싸줌
 
-#실행하면 터비널에서 이 패키지가 이야기한 것들이 터미널에 나올 것임 ⬇️⬇️⬇️
+# 실행하면 터비널에서 이 패키지가 이야기한 것들이 터미널에 나올 것임 ⬇️⬇️⬇️
 
 # <p>
 #  Some
@@ -2336,7 +2336,98 @@ print((soup.prettify()))  # 복.붙의 코드가 예전버전이라서 () 한번
 #  </b>
 # </p>
 
-#✍️ 'pip list' 를 터미널에 넣고 타이핑을 하면, 어떠한 종류의 것들이 깔려있는지가 나옴
-#✍️ 'pip show beautifulsoup4'를 넣고 타이핑을 치면 beautifulsoup4에 관련한 정보 리스트가 쫙 나옴
-#
+# ✍️ 'pip list' 를 터미널에 넣고 타이핑을 하면, 어떠한 종류의 것들이 깔려있는지가 나옴
+# ✍️ 'pip show beautifulsoup4'를 넣고 타이핑을 치면 beautifulsoup4에 관련한 정보 리스트가 쫙 나옴
+# ✍️ 'pip install --upgrade beautifulsoup4' 을 치면 업그레이드한다라는 것
+# ✍️ 'pip uninstall beautifulsoup4' 설치제거, 삭제한다라는 것
 
+
+# ✍️✍️✍️✍️내장함수 연습  (Built in functions)
+
+
+# input :사용자 입력을 받는 함수
+# language = input("무슨 언어를 좋아합니까?")
+# print("{0} 를 보편적으로 씁니다.".format(language))
+
+# dir : 어떤 객체를 넘겨줬을 때, 그 객체가 어떤 변수와 함수를 가지고 있는지를 표시
+
+# print(dir())
+# import random  # 외장함수
+
+# print(dir())  # random 생성
+# import pickle
+
+# print(dir())  # random과 pickle생성
+
+# print(dir(random))
+
+
+# list = [1, 2, 3]
+# print(dir(list))  # 리스트에 사용할 수있는 정보들이 쫘악 터미널에 찍힘
+
+# name = "rose"
+# print(dir(name))
+
+
+###🙂 찾아봐. 구글에서, [list of python builtins]: https://docs.python.org/3/library/functions.html
+
+
+# ✍️✍️✍️외장함수: 밖에서 import함, modules
+
+# 1. 구글에서 list of python modules 을 찾는다.
+# 2. https://docs.python.org/3/py-modindex.html 클릭한다.
+
+
+# # glob: 경로 내의 폴더/ 파일목록 조회 (윈도우 dir)
+
+# import glob
+# print(glob.glob("*.py"))
+
+# # 이상하게 실행이 안됨.failed.
+
+
+# ✍️✍️✍️ OS 연습
+
+# os :운영체제에서 제공하는 기본 기능
+# import os
+
+# print(os.getcwd())  # 현재 디렉토리 경로 알려줌
+
+
+# folder = "sample_dir"
+
+# if os.path.exists(folder):
+#     print("이미존재하는 폴더에요")
+#     os.rmdir(folder) #폴더삭제하기
+#     print(folder, "폴더를 삭제했습니다")
+# else:
+#     os.makedirs(folder)  # 폴더생성
+#     print(folder, "폴더를 생성했쮸")
+
+
+# ✍️✍️✍️ Os 연습
+# import os
+# print(os.listdir()) #폴더 안의 존재하는 모든 파일들 리스트로 알려주기
+
+
+# # ✍️✍️✍️시간관련 외장 함수 TIME
+
+
+# import time
+# print(time.localtime()) #시간관련 정보가 보기 어렵게 나옴.😒
+# print(time.strftime("%Y-%m-%d %H:%M:%S"))
+# # %Y : Year | %m : Month | %d : Day | %H : HOUR | %M : Minutes(Capital) |%S : Seconds(Capital)
+
+
+# # # ✍️✍️✍️시간관련 외장 함수 TIME -#2
+
+# import datetime
+
+# print("오늘 날짜는 ", datetime.date.today())
+
+
+# # timedelta :두 날짜 사이의 간격
+
+# today = datetime.date.today()  # 오늘 날짜 저장
+# td = datetime.timedelta(days=100)  # 100일 저장
+# print("우리가 만난지 100일은", today + td)  # 오늘부터 100일 후
