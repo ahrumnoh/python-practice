@@ -2313,3 +2313,30 @@
 # ✍️✍️✍️ pip install 로 패키지 가져다 쓰기 연습!!
 
 # Google에서 pypi를 찾으르아!!!
+# 검색: beautifulsoup4 => pip install beautifulsoup4
+# 터미널에 install 시작
+# beautifulsoup4 페이지밑에보면 Project description의 Quick start의
+# 첫번째 세번째줄까지 코드 복사해서 붙여넣기!
+
+
+from bs4 import BeautifulSoup
+
+soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
+print((soup.prettify()))  # 복.붙의 코드가 예전버전이라서 () 한번더 전체를 감싸줌
+
+#실행하면 터비널에서 이 패키지가 이야기한 것들이 터미널에 나올 것임 ⬇️⬇️⬇️
+
+# <p>
+#  Some
+#  <b>
+#   bad
+#   <i>
+#    HTML
+#   </i>
+#  </b>
+# </p>
+
+#✍️ 'pip list' 를 터미널에 넣고 타이핑을 하면, 어떠한 종류의 것들이 깔려있는지가 나옴
+#✍️ 'pip show beautifulsoup4'를 넣고 타이핑을 치면 beautifulsoup4에 관련한 정보 리스트가 쫙 나옴
+#
+
