@@ -10,7 +10,7 @@ FIRE!!!👩‍💻😒👩‍💻😃👍✍
 I will answer your questions.
 
 
-*I have a plan to create python lession once I reach a certain level of python in the future ✍️👩‍💻
+*I have a plan to create python lesson once I reach a certain level of python in the future ✍️👩‍💻
 
 
 
