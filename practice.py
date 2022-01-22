@@ -2277,3 +2277,31 @@
 
 
 ## BREAT TIME : 5:30:36
+
+
+# # ✍️✍️✍️ 패키지 연습 5:: from/import
+# # ✍️모듈 직접실행 연습  :: boston.py
+
+
+# from random import *
+
+# from travel import *  # 1. __init__.py file과 연동이 되어진다.🥸 어떤 여유에서 그런지 더 알아봐야함
+
+# trip_to = boston.bostonPackage()  # 2. boston.py와 연동추가
+# trip_to.detail()
+
+
+# trip_to = sydney.sydneyPackage()
+# trip_to.detail()
+
+
+# ✍️ 패키지,모듈 위지 연습
+
+
+from travel import *
+
+import inspect  # 위치찾기 호출모드
+import random
+
+print(inspect.getfile(random))
+print(inspect.getfile(boston))  # boston.py 위치가 어딘지 알려줌
