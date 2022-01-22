@@ -6,7 +6,7 @@ FIRE!!!👩‍💻😒👩‍💻😃👍✍
 
 *Following [practice.py] file. This is the main file to study.
 
-*If you have any questions, please email to me.  [ahrumnoh@gmailcom]
+*If you have any questions or if you cannot understand korean language, please email to me.  [ahrumnoh@gmailcom]
 I will answer your questions.
 
 
