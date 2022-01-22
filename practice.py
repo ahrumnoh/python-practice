@@ -2431,3 +2431,40 @@
 # today = datetime.date.today()  # 오늘 날짜 저장
 # td = datetime.timedelta(days=100)  # 100일 저장
 # print("우리가 만난지 100일은", today + td)  # 오늘부터 100일 후
+
+
+# quiz 👩‍💻👩‍💻👩‍💻👩‍💻👩‍💻👩‍💻
+
+# 프로젝트 내에 나만의 시그니처를 남기는 모듈 만들어보즈아!========
+
+
+# 조건: 모듈 파일명은 byme.py 로 작성=======
+
+# # (모듈 사용 예제)
+# import byme
+# byme.sign()
+
+
+# 출력예제
+# 이 프로그램은 로즈에 의하여 만들어졌쮸
+# 코딩공부를 더 효율적으로 하고 싶다면?
+# 유튜브: https://www.youtube.com/channel/UCon7e4Dv0uVV1s9Aptup8gg
+# 모르는 문제가 있다면?
+# 이메일: ahrumnoh@gmail.com
+
+
+# ✍️✍️ 문제풀이 답
+
+# sub으로 byme.py 파일을 먼저 만든다.
+# 원하는 정보를 넣는다.
+# 본 파일로 넘어와 외장함수 처리를 한다.
+
+
+import byme
+
+byme.sign()
+
+
+#그럼 byme.py의 내용이 터미널에 입력되어진다!!!! 
+
+#아싸라비요!!! 끄읕!!!!!!!!!!!!!!!!!!
