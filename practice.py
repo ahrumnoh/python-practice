@@ -2460,9 +2460,9 @@
 # 본 파일로 넘어와 외장함수 처리를 한다.
 
 
-import byme
+# import byme
 
-byme.sign()
+# byme.sign()
 
 
 #그럼 byme.py의 내용이 터미널에 입력되어진다!!!! 
