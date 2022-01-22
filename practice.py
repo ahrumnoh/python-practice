@@ -2295,13 +2295,21 @@
 # trip_to.detail()
 
 
-# ✍️ 패키지,모듈 위지 연습
+# ✍️✍️✍️✍️✍️✍️ 패키지,모듈 위지 연습 5:37✍️✍️✍️✍️ AGAIN!!!
 
 
-from travel import *
+# from travel import *
 
-import inspect  # 위치찾기 호출모드
-import random
+# trip_to = boston.bostonPackage()  # 2. boston.py와 연동추가
+# trip_to.detail()
 
-print(inspect.getfile(random))
-print(inspect.getfile(boston))  # boston.py 위치가 어딘지 알려줌
+# import inspect  # 위치찾기 호출모드
+# import random
+
+# print(inspect.getfile(random))
+# print(inspect.getfile(boston))  # boston.py 위치가 어딘지 알려줌
+
+
+# ✍️✍️✍️ pip install 로 패키지 가져다 쓰기 연습!!
+
+# Google에서 pypi를 찾으르아!!!
