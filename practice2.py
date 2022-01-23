@@ -5,15 +5,16 @@
 # print(not True)
 
 
+# # practice 2
+
+# animal1 = "cat"
+# animal2 = "dog"
+# name = "rose"
+
+# print(animal1 + " & " + animal2 + "are my favourite pets.")
+# print("Hey! " + name + "!!!")
 
 
-
-#practice 2
-
-animal1 = "cat"
-animal2 = "dog"
-name = "rose"
-
-print(animal1)
+# practice 2
 
 
