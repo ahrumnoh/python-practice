@@ -15,4 +15,4 @@ more deeply
 
 # Leetcode-Practice
 
-- Everyday, I will try to study the problem.
+- Everyday, I try to study problems.
