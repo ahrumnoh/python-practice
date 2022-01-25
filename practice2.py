@@ -58,3 +58,70 @@ from random import *
 # # print(randint(1,45))
 # print(randrange(1, 46))
 # print("오프라인은 " + "매월" + str(randrange(1, 13)) + "  입니다.")
+
+
+# data = randint(4, 28)
+# print("every month, we are going to meet" + str(data))
+
+
+# sentence = "I am the founder who created innovative software platform"
+# print(sentence + " until 2024")
+
+# sentence = """
+# who am I?
+# what do I do?
+# I want to get into the software company soon
+# I hope I will pass the second interview sincerely
+# 🙂🙂🙂🙂
+# No matter what, I have confidence!
+# Let's go for it!
+
+# I think learning python is so having fun!
+# such a new field. I have never thought that I am doing something in computer
+# Omg.....
+# I cannot believe..
+# How have I been here so far..
+# In my life,
+# I have never thought about studying or learning computer.
+
+
+# What a coincidence! Is this real coincidence or destiny? 😐🤔
+# I am super duper curious.
+# Sometimes... it makes me so laughing.
+# why?
+# Because...unbelievable!
+# How dare..? how come...? I do computer!!! OMG..
+# Even I do computer, I cannot believe this is real or not.
+
+# Only my interests were art, education and finance before.
+
+
+
+
+
+
+# .
+# .
+# .
+# .
+
+# For me..
+# Such a miracle!
+
+
+
+# How could I be accepted by Harvard??
+# How could I get in computer world?
+
+# I think most unbelievable mysterious happenings in my life.
+# """
+
+
+# print(sentence)
+
+
+
+numbers = "921212-121212"
+print()
+
+

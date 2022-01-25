@@ -107,7 +107,7 @@
 # print(sentence3)
 
 
-# jumin = "830727-206512"
+# jumin = "909191-19191111"
 # print("성별 : " + jumin[7])
 # print("연도 : " + jumin[0:2])  # 0부터 2직전까지
 # print("생년월일 : " + jumin[2:6])  # 2부터 6직전까지
