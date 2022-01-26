@@ -49,9 +49,10 @@
 # print(sqrt(9))
 
 
-from contextlib import redirect_stderr
-from gc import get_threshold
-from random import *
+# from contextlib import redirect_stderr
+# from gc import get_threshold
+# from math import floor
+# from random import *
 
 # print(random()) #1미만의 임의값
 # print(random()*10)
@@ -130,7 +131,7 @@ from random import *
 # print(str(len(name)*5) + " " + funFact)
 
 
-name = "Roseb is beaitufil, wow excellent"
+# name = "Roseb is beaitufil, wow excellent"
 # print(name.replace(str("Rose"), str("Jessica")))
 # print(name.replace("Rose", "Olivia"))
 
@@ -202,20 +203,63 @@ name = "Roseb is beaitufil, wow excellent"
 # print(randomList)
 
 
-client1 = ["rose", 27, "sydney", "single", False]
-client2 = ["great", 25, "seoul", "married", True]
+# client1 = ["rose", 27, "sydney", "single", False]
+# client2 = ["great", 25, "seoul", "married", True]
+
+# # print(client1)
+# # print(client2)
+
+# # extend clients
+
+# additionalInfo = ["graduated Uni", "Accounting"]
+# client1.extend(additionalInfo)
+# # what is different of
+# additionalInfo.extend(client1)
 
 # print(client1)
-# print(client2)
+# print(additionalInfo)
 
-# extend clients
+# # 🙂🙂🙂🙂🙂✍️
 
-additionalInfo = ["graduated Uni", "Accounting"]
-client1.extend(additionalInfo)
-# what is different of
-additionalInfo.extend(client1)
 
-print(client1)
-print(additionalInfo)
+# cabinet = { 3: "rose", 100: "Great"}
+# print(cabinet[100])
+# print(cabinet.get(3))
 
-# 🙂🙂🙂🙂🙂✍️
+
+# # 🙂🙂🙂🙂🙂✍️
+# purse = {3: floor(3.88), "fiat": "great"}
+# # print(purse.get("coin"))
+
+
+# print(3.5 in purse)
+
+
+# menu = ("samgyupsal", "jjajjangmyun", "friedrice")
+# print(menu[1])
+
+
+# 🤔TUPLE Exercise 1.
+
+# (name, age, hobby) = ("rose", "33", "computer and reading")
+# print(name, age, hobby)
+
+# female = {"rose", "rosa", "roseline", "teacher"}
+# male = {"great", "jack", "frankie", "teacher"}
+# # print(female, male)
+
+# # print(female&male)
+# # print(female.intersection(male))
+# # print(female | male)
+# # print(female.union(male))
+# # print(female - male)
+# # print(male - female)
+
+
+# female.add("Jennifer")
+# print(female)
+# female.remove("rose")
+# print(female)
+
+
+### bREAK TIME Line 409
