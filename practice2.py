@@ -96,10 +96,6 @@ from random import *
 # Only my interests were art, education and finance before.
 
 
-
-
-
-
 # .
 # .
 # .
@@ -107,7 +103,6 @@ from random import *
 
 # For me..
 # Such a miracle!
-
 
 
 # How could I be accepted by Harvard??
@@ -120,8 +115,14 @@ from random import *
 # print(sentence)
 
 
-
 # numbers = "921212-121212"
 # print(" 성별: " + numbers[-7:])
 
 
+# name = "Rose is beaitufil"
+# # # # print(name.upper())
+# # # print(name[0].isupper())
+
+# name = "Rose is beaitufil"
+# funFact = "is my favourite number"
+# print(str(len(name)*5) + " " + funFact)
