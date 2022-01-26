@@ -187,13 +187,10 @@ name = "Roseb is beaitufil, wow excellent"
 # # print(subway)  # 덧붙이기3
 
 
-
 # subway.append("sydney")
 # print(subway)
 # print(subway.count("sydney"))
 # print(subway.count("new york"))
-
-
 
 
 # randomList=[9,4,1,6,8,20,34,77,3,6,7]
@@ -206,7 +203,19 @@ name = "Roseb is beaitufil, wow excellent"
 
 
 client1 = ["rose", 27, "sydney", "single", False]
-client2 = ["great", 25, "seoul", "married",True]
+client2 = ["great", 25, "seoul", "married", True]
+
+# print(client1)
+# print(client2)
+
+# extend clients
+
+additionalInfo = ["graduated Uni", "Accounting"]
+client1.extend(additionalInfo)
+# what is different of
+additionalInfo.extend(client1)
 
 print(client1)
-print(client2)
+print(additionalInfo)
+
+# 🙂🙂🙂🙂🙂✍️
