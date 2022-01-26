@@ -121,7 +121,7 @@ from random import *
 
 
 
-numbers = "921212-121212"
-print()
+# numbers = "921212-121212"
+# print(" 성별: " + numbers[-7:])
 
 
