@@ -123,6 +123,6 @@ from random import *
 # # # # print(name.upper())
 # # # print(name[0].isupper())
 
-# name = "Rose is beaitufil"
+# name = "Rose is beautifil"
 # funFact = "is my favourite number"
 # print(str(len(name)*5) + " " + funFact)
