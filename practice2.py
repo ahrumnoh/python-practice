@@ -176,12 +176,12 @@ name = "Roseb is beaitufil, wow excellent"
 # print("hello world \tOMG")
 
 
-# 연동과정
-subway = ["sydney", "new york", "seoul"]
-print(subway)  # 제네시스 1
+# # 연동과정
+# subway = ["sydney", "new york", "seoul"]
+# print(subway)  # 제네시스 1
 
-# print(subway.index("seoul"))
-subway.append("singapore")  # 덧붙이기2
-print(subway)
-subway.append("paris")
-print(subway)  # 덧붙이기3
+# # print(subway.index("seoul"))
+# subway.append("singapore")  # 덧붙이기2
+# print(subway)
+# subway.append("paris")
+# print(subway)  # 덧붙이기3
