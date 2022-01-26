@@ -49,6 +49,8 @@
 # print(sqrt(9))
 
 
+from contextlib import redirect_stderr
+from gc import get_threshold
 from random import *
 
 # print(random()) #1미만의 임의값
@@ -126,3 +128,60 @@ from random import *
 # name = "Rose is beautifil"
 # funFact = "is my favourite number"
 # print(str(len(name)*5) + " " + funFact)
+
+
+name = "Roseb is beaitufil, wow excellent"
+# print(name.replace(str("Rose"), str("Jessica")))
+# print(name.replace("Rose", "Olivia"))
+
+
+# # ⚠️⚠️⚠️⚠️ very curious
+# index = name.index("e") #연동과정 1
+# print(index)
+# index = name.index("e", index+1) #연동과정 2
+# print(index)
+# index = name.index("e", index+10) #연동과정 3
+# print(index)
+
+
+# print( " I am %d years old" %25)
+# print( " Hello, World! %s is my destiny" %"software engineering")
+# print(
+#     " I am %d yeard old" % 25
+#     + " and my hobby is 'studying & learning %s & %s" % ("software engineering", "computer science")
+# )
+
+
+# print("I am {} years old ".format(randrange(1,20))) #format integer
+# print("I am very happy to study {} & {}".format("computer", "finance")) #연동 순수 1
+# print("I am very happy to study {0} & {1}".format("computer", "finance")) #연동 2
+# print("I am very happy to study {1} & {0}".format("computer", "finance")) #연동 3
+
+
+##Method 1
+# print("I am {age} years old, {color} is my favourite".format(age=27,color="red"))
+
+
+##Method 2
+# book="computer science"
+# color="gold"
+# day = 30
+
+# print("I bought "+ book + "  " + str(day) +" of November last year with " + color +" theme.")
+
+
+# print(" I have a book \n that is my love")
+# print( "Red  apple is so lovely \rPine")
+# print("Hello World\b++++")
+# print("hello world \tOMG")
+
+
+# 연동과정
+subway = ["sydney", "new york", "seoul"]
+print(subway)  # 제네시스 1
+
+# print(subway.index("seoul"))
+subway.append("singapore")  # 덧붙이기2
+print(subway)
+subway.append("paris")
+print(subway)  # 덧붙이기3
