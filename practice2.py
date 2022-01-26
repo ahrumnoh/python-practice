@@ -80,37 +80,9 @@
 # Let's go for it!
 
 # I think learning python is so having fun!
-# such a new field. I have never thought that I am doing something in computer
+# such a new field. 
 # Omg.....
-# I cannot believe..
-# How have I been here so far..
-# In my life,
-# I have never thought about studying or learning computer.
-
-
-# What a coincidence! Is this real coincidence or destiny? 😐🤔
-# I am super duper curious.
-# Sometimes... it makes me so laughing.
-# why?
-# Because...unbelievable!
-# How dare..? how come...? I do computer!!! OMG..
-# Even I do computer, I cannot believe this is real or not.
-
-# Only my interests were art, education and finance before.
-
-
-# .
-# .
-# .
-# .
-
-# For me..
-# Such a miracle!
-
-
-# How could I be accepted by Harvard??
-# How could I get in computer world?
-
+# I cannot believe.
 # I think most unbelievable mysterious happenings in my life.
 # """
 
