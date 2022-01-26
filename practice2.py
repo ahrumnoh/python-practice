@@ -176,7 +176,7 @@ name = "Roseb is beaitufil, wow excellent"
 # print("hello world \tOMG")
 
 
-# # 연동과정
+# # # 연동과정
 # subway = ["sydney", "new york", "seoul"]
 # print(subway)  # 제네시스 1
 
@@ -184,4 +184,29 @@ name = "Roseb is beaitufil, wow excellent"
 # subway.append("singapore")  # 덧붙이기2
 # print(subway)
 # subway.append("paris")
-# print(subway)  # 덧붙이기3
+# # print(subway)  # 덧붙이기3
+
+
+
+# subway.append("sydney")
+# print(subway)
+# print(subway.count("sydney"))
+# print(subway.count("new york"))
+
+
+
+
+# randomList=[9,4,1,6,8,20,34,77,3,6,7]
+# # randomList.sort()
+# # randomList.reverse()
+# randomList.append(777)
+# print(randomList)
+# randomList.clear()
+# print(randomList)
+
+
+client1 = ["rose", 27, "sydney", "single", False]
+client2 = ["great", 25, "seoul", "married",True]
+
+print(client1)
+print(client2)
