@@ -80,7 +80,7 @@
 # Let's go for it!
 
 # I think learning python is so having fun!
-# such a new field. 
+# such a new field.
 # Omg.....
 # I cannot believe.
 # I think most unbelievable mysterious happenings in my life.
@@ -234,4 +234,63 @@
 # print(female)
 
 
-### bREAK TIME Line 409
+### BREAK TIME Line 409
+
+
+# menu = {"우유","과자","귤"}
+# # menu = list(menu)
+# print(menu, type(menu))
+# menu = set(menu)
+# print(menu, type(menu))
+
+
+# list = [1,2,3,4,5,6,7,8,9,10]
+# print ("이번에 당첨되신 분은" + "[" + str(list[2]) +"," + str(list[3]) + "," + str(list[4]) + "]")
+
+
+# from random import *
+
+# users = range(1, 21)  # 1부터 20까지 숫자생성
+# # print(type(users))
+# users = list(users)  # 리스트로 변환
+# # print(type(users))
+
+# print(users)  # 리스트로 변환된 숫자 표기
+# shuffle(users)  # 랜덤으로 숫자 섞기
+# print(users)  # 랜덤으로 숫자 표기
+
+
+# from random import *
+
+# # users = range(31) #숫자만 잡은거 0-30까지
+# users = range(1,31) #숫자만 잡은거 1-30까지
+# users = list(users) #잡은 이후에 무조건 리스트를 입혀야 정렬이 됨
+# shuffle(users) #섞을땐 프린트처럼 바로 씀
+# print(users) #마지막 프린트
+
+
+# weather = input("How is the weather today? ")
+
+# if weather == "rain":
+#     print("take an umbrella")
+# elif weather == "snow":
+#     print("wear a warm jacket")
+# elif weather == "how":
+#     print("Do not go outside, too hot!")
+# else:
+#     print("Perfect day! Enjoy your day!")
+
+
+
+
+
+# temp = int(input("what is the temperture for today? "))
+
+# if 25 < temp:
+#     print("It is too hot")
+# elif 15 < temp <= 24:
+#     print("It is a fine day. Let's go outside for a picnic")
+# elif 0 < temp < 14:
+#     print(" It is quite chill, wear a jacket for it")
+# else:
+#     print(" Too cold outside, Do not go out")
