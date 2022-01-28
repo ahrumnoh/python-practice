@@ -330,4 +330,28 @@
 #     person = input("what is your name? ")
 
 
-#BREAK TIME 578
+# BREAK TIME 578
+
+# # from random import *
+# List = [2, 10]
+# for students in range(0,30):
+#     if students in List:
+#         continue
+#     print("{0}, read the book".format(students))
+
+
+# # continue and break 연습
+
+# absent = [3, 5, 8, 22]
+# no_materials = [10, 11]
+
+# for students in range(1, 25):
+#     if students in absent:
+#         continue
+#     elif students in no_materials:
+#         break
+#     print("{0}, read the book ".format(students))
+
+
+# students = [1,2,3,4,5]
+# print = [i+100 for i in students]

@@ -585,7 +585,7 @@
 #     print("{0}, 책을 읽어봐".format(student))  # 책을 읽어보렴
 
 
-# # ✍️continue와 break 연습 2::
+# # # ✍️continue와 break 연습 2::
 
 # absent = [2, 5]  # 결석
 # no_book = [7]  # 책을 놓고온 녀석
