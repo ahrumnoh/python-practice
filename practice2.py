@@ -281,9 +281,6 @@
 #     print("Perfect day! Enjoy your day!")
 
 
-
-
-
 # temp = int(input("what is the temperture for today? "))
 
 # if 25 < temp:
@@ -294,3 +291,43 @@
 #     print(" It is quite chill, wear a jacket for it")
 # else:
 #     print(" Too cold outside, Do not go out")
+
+
+# for (반복되어지는 상황에서)
+
+# for waiting_no in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
+#     print("waiting : {0}".format(waiting_no))
+
+
+# 지정안하고
+# for waitingNumber in range(1,11):
+#     print("waiting :  {0}".format(waitingNumber))
+
+
+# 지정하고
+
+# starbucks = ["rose", "great", "ellen"]
+# for customer in starbucks:
+#     print("sir/madam {0}, your order is ready".format(customer))
+
+
+# ##Until reaching a certain point
+
+# customer = "rose"
+# index = 5
+# while index >=1:
+#     print("{0}, your order is ready {1}개의 나머지 오더 남았습니다.".format(customer, index))
+#     index -= 4
+#     if index <= 0:
+#         print("your coffee is over")
+
+
+# customer = "rose"
+# person = "unknown"
+
+# while person != customer:
+#     print("{0}, your order is ready".format(customer))
+#     person = input("what is your name? ")
+
+
+#BREAK TIME 578
