@@ -354,4 +354,19 @@
 
 
 # students = [1,2,3,4,5]
-# print = [i+100 for i in students]
+# # print(students)
+# lists = [i+100 for i in students]
+# print(lists)
+
+
+# names = ["rose", "jack", "james"]
+# lists = [i+"hello" for i in names]
+# print(lists)
+
+
+# students = ["rose", "great", "selena"]
+# lists = [len(i)  for i in students]
+# print(lists)
+
+
+# students = ["rose", "great", "selena"]
