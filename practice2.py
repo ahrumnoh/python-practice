@@ -376,14 +376,66 @@
 
 # from random import *
 
-# count = 0
+# customers = 0
 # for i in range(1,11):
 #     time = randrange(10,31)
 
 #     if 10 <= time <= 31:
 #         print("[0] {0}번쨰 손님 (Time: {1}분)".format(i, time))
-#         count += 1
+#         customers += 1
 #     else:
 #         print("[]번쨰 손님 (소요시간: {1}분)".format(i,time))
 
-# print("총 탑승승객: {0}분".format(count))
+# print("총 탑승승객: {0}분".format(customers))
+
+# def open_account():
+#     print("hello world")
+# open_account()
+
+# def open_account():
+#     print("new account opened")
+# open_account()
+
+
+def deposit(balance, money):
+    print(
+        "We've taken your deposit. thankyou. remaining is {0}".format(balance + money)
+    )
+    return balance + money
+
+
+def withdraw(balance, money):
+
+    if balance > money:
+        print(
+            "We've taken your deposit. thankyou. remaining is {0}".format(
+                balance - money
+            )
+        )
+        return balance - money
+    else:
+        balance <= money
+        print(
+            "you cannot withdraw money. your account is not sufficient. your remaining balance is {0}".format(
+                balance
+            )
+        )
+
+
+def weekend(balance, money, commission):
+
+    if commission == 100:
+        print(
+            "you received your balance {0} with commision charged".format(
+                balance - money - commission
+            )
+        )
+        return balance - money - commission
+    else:
+        print("your commission amount is wrong".format(balance - money - commission))
+
+
+balance = 1000
+# balance = deposit(balance, 2000)
+# balance = withdraw(balance, 800)
+balance = weekend(balance, 100, 200)
