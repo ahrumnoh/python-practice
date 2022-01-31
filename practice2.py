@@ -397,6 +397,10 @@
 # open_account()
 
 
+
+
+# 😐 bank play
+
 def deposit(balance, money):
     print(
         "We've taken your deposit. thankyou. remaining is {0}".format(balance + money)
@@ -438,4 +442,43 @@ def weekend(balance, money, commission):
 balance = 1000
 # balance = deposit(balance, 2000)
 # balance = withdraw(balance, 800)
-balance = weekend(balance, 100, 200)
+# balance = weekend(balance, 200, 100)
+# balance = deposit(balance, 500)
+
+# balance = deposit(balance, 3000)
+# balance = withdraw(balance, 300)
+# balance = weekend(balance, 300, 100)
+
+
+
+
+
+# def profile(name, age, language):
+#     print("name : {0}\t age: {1}\t language: {2}\t".format(name,age,language))
+
+
+# profile("ahrum", 23, "korean")
+# profile("jack", 33, "English")
+
+
+
+
+
+# def profile(name, age=23, language="pythong"):
+#     print("name : {0}\t age : {1}\t language : {2}".format(name, age, language))
+
+# profile("Jack", 44, "Java Script")
+# profile(name="Jack", age=44, language= "Java Script")
+
+
+
+
+
+
+# gun = 10
+# def checkpoint(soldiers):
+#     global gun
+#     gun = gun - soldiers
+#     print("남은총: {0}".format(gun))
+
+# checkpoint(2)

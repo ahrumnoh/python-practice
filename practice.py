@@ -704,34 +704,34 @@
 # # ✍️✍️✍️ 함수-전달값과 반환값
 
 
-def open_account():  # 함수정의 def, 입력값, 실행은 ()
-    print("새로운 계좌가 생성됐쮸.")
+# def open_account():  # 함수정의 def, 입력값, 실행은 ()
+#     print("새로운 계좌가 생성됐쮸.")
 
 
-def deposit(balance, money):  # 입금
-    print("입금됐쮸. 잔액은 {0} 원입니다.".format(balance + money))
-    return balance + money  # 반환
+# def deposit(balance, money):  # 입금
+#     print("입금됐쮸. 잔액은 {0} 원입니다.".format(balance + money))
+#     return balance + money  # 반환
 
 
-def withdraw(balance, money):  # 출금
-    if balance > money:  # 잔액이 출금보다 많으면
-        print("출금이 완료되었습니다. 잔액은 {0} 원입니다.".format(balance - money))
-        return balance - money
-    else:
-        print("출금이 완료되지 않았습니다. 잔액은 {0}원 입니다.".format(balance))
-        return balance  # BREAK TIME : 2:35:40
+# def withdraw(balance, money):  # 출금
+#     if balance > money:  # 잔액이 출금보다 많으면
+#         print("출금이 완료되었습니다. 잔액은 {0} 원입니다.".format(balance - money))
+#         return balance - money
+#     else:
+#         print("출금이 완료되지 않았습니다. 잔액은 {0}원 입니다.".format(balance))
+#         return balance  # BREAK TIME : 2:35:40
 
 
-def withdraw_night(balance, money):  # 저녁에 출금
-    commission = 100  # 수수료 100원
-    return commission, balance - money - commission
+# def withdraw_night(balance, money):  # 저녁에 출금
+#     commission = 100  # 수수료 100원
+#     return commission, balance - money - commission
 
 
-balance = 0  # 잔액
-balance = deposit(balance, 1000)
-# balance = withdraw(balance, 200)
-commission, balance = withdraw_night(balance, 500)  # 500은 내가 출금하려는 금액
-print("수수료 {0} 원이며 잔액은 {1}원 입니다.".format(commission, balance))
+# balance = 0  # 잔액
+# balance = deposit(balance, 1000)
+# # balance = withdraw(balance, 200)
+# commission, balance = withdraw_night(balance, 500)  # 500은 내가 출금하려는 금액
+# print("수수료 {0} 원이며 잔액은 {1}원 입니다.".format(commission, balance))
 
 
 # # ✍️✍️✍️ 함수-전달값과 반환값 -2번쨰
