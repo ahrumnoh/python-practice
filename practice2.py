@@ -364,9 +364,26 @@
 # print(lists)
 
 
-# students = ["rose", "great", "selena"]
-# lists = [len(i)  for i in students]
+# students = ["roseline", "great", "selena"]
+# lists = [len(i) for i in students]
 # print(lists)
 
 
 # students = ["rose", "great", "selena"]
+# students =[i.upper() for i in students]
+# print(students)
+
+
+# from random import *
+
+# count = 0
+# for i in range(1,11):
+#     time = randrange(10,31)
+
+#     if 10 <= time <= 31:
+#         print("[0] {0}번쨰 손님 (Time: {1}분)".format(i, time))
+#         count += 1
+#     else:
+#         print("[]번쨰 손님 (소요시간: {1}분)".format(i,time))
+
+# print("총 탑승승객: {0}분".format(count))
