@@ -489,21 +489,30 @@
 # servingMeal(100)
 
 
-# def profile(name, age=20, language="python"):
+# def profile(name, age, language):
 #     print("name : {0}\t age: {1}\t language: {2}".format(name, age, language))
 
-# profile("ahrum")
-# profile("Jack")
+# profile("ahrum", 30, "python")
+# profile("Jack", 25, "JS")
 
 
-# def std_weight(height=170, gender="male"):
+# def std_weight(height, gender):
 #     if gender == "male":
-#         return height * height *22
+#         return height * height * 22
 #     else:
 #         return height * height * 21
 
 # height = 170
 # gender = "male"
-# weight = std_weight(height/100, gender)
+# weight = round(std_weight(height /100, gender))
 
-# std_weight("height {0}, gender {1}  weight is {2}".format(height,gender, weight))
+# print("height {0}, gender {1}  ".format(height,gender))
+
+
+
+# print("python",30,5*2, round(1.3345,2))
+
+
+import sys
+print("python","java", file=sys.stdout)
+print("python", "java", file=sys.stderr)
