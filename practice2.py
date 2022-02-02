@@ -494,3 +494,16 @@
 
 # profile("ahrum")
 # profile("Jack")
+
+
+# def std_weight(height=170, gender="male"):
+#     if gender == "male":
+#         return height * height *22
+#     else:
+#         return height * height * 21
+
+# height = 170
+# gender = "male"
+# weight = std_weight(height/100, gender)
+
+# std_weight("height {0}, gender {1}  weight is {2}".format(height,gender, weight))
