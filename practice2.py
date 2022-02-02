@@ -281,6 +281,9 @@
 #     print("Perfect day! Enjoy your day!")
 
 
+# from ast import Continue
+
+
 # temp = int(input("what is the temperture for today? "))
 
 # if 25 < temp:
@@ -397,60 +400,55 @@
 # open_account()
 
 
-
-
 # 😐 bank play
 
-def deposit(balance, money):
-    print(
-        "We've taken your deposit. thankyou. remaining is {0}".format(balance + money)
-    )
-    return balance + money
+# def deposit(balance, money):
+#     print(
+#         "We've taken your deposit. thankyou. remaining is {0}".format(balance + money)
+#     )
+#     return balance + money
 
 
-def withdraw(balance, money):
+# def withdraw(balance, money):
 
-    if balance > money:
-        print(
-            "We've taken your deposit. thankyou. remaining is {0}".format(
-                balance - money
-            )
-        )
-        return balance - money
-    else:
-        balance <= money
-        print(
-            "you cannot withdraw money. your account is not sufficient. your remaining balance is {0}".format(
-                balance
-            )
-        )
-
-
-def weekend(balance, money, commission):
-
-    if commission == 100:
-        print(
-            "you received your balance {0} with commision charged".format(
-                balance - money - commission
-            )
-        )
-        return balance - money - commission
-    else:
-        print("your commission amount is wrong".format(balance - money - commission))
+#     if balance > money:
+#         print(
+#             "We've taken your deposit. thankyou. remaining is {0}".format(
+#                 balance - money
+#             )
+#         )
+#         return balance - money
+#     else:
+#         balance <= money
+#         print(
+#             "you cannot withdraw money. your account is not sufficient. your remaining balance is {0}".format(
+#                 balance
+#             )
+#         )
 
 
-balance = 1000
+# def weekend(balance, money, commission):
+
+#     if commission == 100:
+#         print(
+#             "you received your balance {0} with commision charged".format(
+#                 balance - money - commission
+#             )
+#         )
+#         return balance - money - commission
+#     else:
+#         print("your commission amount is wrong".format(balance - money - commission))
+
+
+# balance = 1000
 # balance = deposit(balance, 2000)
 # balance = withdraw(balance, 800)
 # balance = weekend(balance, 200, 100)
 # balance = deposit(balance, 500)
 
-# balance = deposit(balance, 3000)
+# # balance = deposit(balance, 3000)
 # balance = withdraw(balance, 300)
 # balance = weekend(balance, 300, 100)
-
-
-
 
 
 # def profile(name, age, language):
@@ -461,18 +459,11 @@ balance = 1000
 # profile("jack", 33, "English")
 
 
-
-
-
 # def profile(name, age=23, language="pythong"):
 #     print("name : {0}\t age : {1}\t language : {2}".format(name, age, language))
 
 # profile("Jack", 44, "Java Script")
 # profile(name="Jack", age=44, language= "Java Script")
-
-
-
-
 
 
 # gun = 10
@@ -482,3 +473,24 @@ balance = 1000
 #     print("남은총: {0}".format(gun))
 
 # checkpoint(2)
+
+
+# meals = 100
+
+# def servingMeal(customer):
+#     global meals
+#     meals = meals - customer
+#     print("the remaining meals: {0}".format(meals))
+
+#     if meals == 0:
+#           print("out of meals for today. thank you, use our meal tomorrow")
+
+
+# servingMeal(100)
+
+
+# def profile(name, age=20, language="python"):
+#     print("name : {0}\t age: {1}\t language: {2}".format(name, age, language))
+
+# profile("ahrum")
+# profile("Jack")
