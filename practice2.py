@@ -509,10 +509,30 @@
 # print("height {0}, gender {1}  ".format(height,gender))
 
 
-
 # print("python",30,5*2, round(1.3345,2))
 
 
 import sys
-print("python","java", file=sys.stdout)
-print("python", "java", file=sys.stderr)
+
+# from tokenize import String
+# print("python","java", file=sys.stdout)
+# print("python", "java", file=sys.stderr)
+# print(sys.version)
+
+
+# sys.stdout.write("This is a message for you\n")
+# sys.stderr.write("This is an error message for you")
+
+
+# a = 15
+# b = 15.6
+# c = "hi there"
+# d = ["ahrum", 50, "python"]
+
+# print(sys.getsizeof(a))  # bytes 28
+# print(sys.getsizeof(b))  # bytes 24
+# print(sys.getsizeof(c))  # bytes 57
+# print(sys.getsizeof(d))  # bytes 120
+
+
+# print(sys.argv)  #failed. what the heck of this?!🤧
