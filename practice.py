@@ -920,23 +920,23 @@
 # # BREAK TIME: 3:00:34
 
 
-# import sys
+import sys
 
 # print("python", "java", file=sys.stdout)  # stdout 표준출력으로 처리
 # print("python", "java", file=sys.stderr)  # stderr 표준에러로 처리
 
 
-# scores = {"math": 0, "english": 50, "coding": 80}
-# for (
-#     subject,
-#     score,
-# ) in scores.items():  # items는 key and value, it is set, not a certain variable.
-#     # key     #value
-#     # print(subject, score) #1
-#     print(subject.ljust(8), str(score).rjust(4), sep=":") #compare #1
-#     # ljust means, leftside + 8 spaces vacant, aligned
-#     # rjust means, rightside + 4 spaces far away, keep vacant, aligned
-#     # Why did it put 'str' because 50 is integer, must be kept by str, otherwise, print does not recognize it
+scores = {"math": 0, "english": 50, "coding": 80}
+for (
+    subject,
+    score,
+) in scores.items():  # items는 key and value, it is set, not a certain variable.
+    # key     #value
+    # print(subject, score) #1
+    print(subject.ljust(8), str(score).rjust(4), sep=":") #compare #1
+    # ljust means, leftside + 8 spaces vacant, aligned
+    # rjust means, rightside + 4 spaces far away, keep vacant, aligned
+    # Why did it put 'str' because 50 is integer, must be kept by str, otherwise, print does not recognize it
 
 
 # ✍️표준입출력 공부 -은행 대기 순번표
