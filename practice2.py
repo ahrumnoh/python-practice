@@ -537,3 +537,28 @@ import sys
 
 # print(sys.argv)  #failed. what the heck of this?!🤧
 
+# scores = {"math": 10, "english": 20, "coding": 30}
+# for (
+#     subject,
+#     score,
+# ) in scores.items():
+#     print(subject.ljust(8), str(score).rjust(8), sep="|")
+
+
+# scores = {"math": 10, "english": 20, "coding": 30}
+# for (
+#     subject,
+#     score
+# ) in scores.items():
+#     print(subject.ljust(10), str(score).rjust(4), sep=":")
+
+# candidates = {"Feb": 8000, "Mar": 10000, "April" : 12000}
+# for (
+#     month,
+#     salary
+# ) in candidates.items():
+#     print(month.ljust(5), str(salary).rjust(7), sep="|")
+#     print("Rose achieved a lot of outcomes! congrats!🙂👍👍👍😁, You deserve it!")
+
+
+# Practiced til 'line 942 at practice.py'
