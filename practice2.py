@@ -512,7 +512,7 @@
 # print("python",30,5*2, round(1.3345,2))
 
 
-import sys
+# import sys
 
 # from tokenize import String
 # print("python","java", file=sys.stdout)
@@ -562,3 +562,48 @@ import sys
 
 
 # Practiced til 'line 942 at practice.py'
+
+
+# for num in range(1,6):
+#     print(" waiting number : " + str(num))
+
+# for num in range(1,6):
+#     print(" waiting number : " + str(num).zfill(3))
+
+
+# answer = input("let me know your numbers : ")
+# print("Your favourite number is " + answer)
+
+# print("{0: >+10}".format(50))
+# print("{0: >+10}".format(-50))
+
+# print("{0: <-10}".format(50))
+# print("{0: <-10}".format(-50))
+
+
+# print("{0: <+10}".format(50))
+# print("{0:_<+10}".format(50))
+# print("{0:&<+10}".format(50))
+# print("{0:*<+10}".format(50))
+
+
+# print("{0:,}".format(1000000000))
+# print("{0:+}".format(1000000000))
+
+# print("{0:<+30,}".format(-10000000000000000))
+
+
+# print("{0:2f}".format( 3/ 4))
+
+# score_file1 = open("score1.txt", "w", encoding="utf8")
+# print("math : 0", file=score_file1)
+# print("english : 40", file=score_file1)
+# score_file1.close()
+
+# employee_file = open("employee.txt", "w", encoding="utf8")
+# print("name: ahrum","position: staff", file=employee_file)
+# print("name: jack", "position: engineer", file=employee_file)
+# employee_file.close()
+
+
+# practice til line 1007 of practice.py
