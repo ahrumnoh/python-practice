@@ -36,48 +36,45 @@
 #                     return [ i, j]
 
 
-# ✍️ 2. Add Two Numbers Leetcode Problem 2
+
+
+
+
+# ✍️ 2. Palindrome Number (EASY PART)
+
+# Given an integer x, return true if x is palindrome integer.
+
+# An integer is a palindrome when it reads the same backward as forward.
+
+# For example, 121 is a palindrome while 123 is not.
+
+
+# Example 1:
+
+# Input: x = 121
+# Output: true
+# Explanation: 121 reads as 121 from left to right and from right to left.
+
 
 
 # class Solution:
+#     def isPalindrome(self, x):
+#         if x > 0:
+#             temp = x
+#             rev_int_elements = []
+#             while temp > 0:
+#                 digit = temp % 10
+#                 rev_int_elements.append(digit)
+#                 temp = temp // 10
+#             org_int_elements = rev_int_elements[::-1]
+#             return rev_int_elements == org_int_elements
+#         elif x == 0:
+#             return True
+#         else:
+#             return False
 
 
-#     def addTwoNumbers(
-#         self, l1: Optional[ListNode], l2: Optional[ListNode]
-#     ) -> Optional[ListNode]:
-#         final_list = t3 = ListNode()
-#         carry = 0
-#         while l1 != None or l2 != None or carry:
-#             v1, v2 = 0, 0
-#             if l1:
-#                 v1 = l1.val
-#                 l1 = l1.next
-#             if l2:
-#                 v2 = l2.val
-#                 l2 = l2.next
-#             sum1 = v1 + v2 + carry
-#             if sum1 > 9:
-#                 carry = 1
-#             else:
-#                 carry = 0
-#             value = sum1 % 10
-#             t3.next = ListNode(value)
-#             t3 = t3.next
+# math = 6//6
+# print(math)
 
-#         return final_list.next
-
-
-# Longest Substring Without Repeating Characters - Leetcode 3 - Python
-# class Solution:
-#     def lengthOfLongestSubstring(self, s: str) -> int:
-#         charSet = set()
-#         l = 0
-#         res = 0
-
-#         for r in range(len(s)):
-#             while s[r] in charSet:
-#                 charSet.remove(s[l])
-#                 l += 1
-#                 charSet.add(s[r])
-#                 res = max(res, r-l +1)
-#         return res
+# print(11//3) #floor division
