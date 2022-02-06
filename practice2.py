@@ -600,10 +600,28 @@
 # print("english : 40", file=score_file1)
 # score_file1.close()
 
-# employee_file = open("employee.txt", "w", encoding="utf8")
-# print("name: ahrum","position: staff", file=employee_file)
-# print("name: jack", "position: engineer", file=employee_file)
-# employee_file.close()
+employee_file = open("employee.txt", "w", encoding="utf8")
+print("name: ahrum", "position: staff", file=employee_file)
+print("name: jack", "position: engineer", file=employee_file)
+employee_file.close()
 
 
 # practice til line 1007 of practice.py
+
+employee_file = open("employee.txt", "a", encoding="utf8")
+employee_file.write("name: Miranda position: CEO")
+employee_file.write("\nname: Gabrielle position:CIO")
+employee_file.close()
+
+# very interesting point. "w" and "a" modes are different to write something. there is no need to put "," as "w" function has above.
+
+
+# employee_file = open("employee.txt", "r", encoding="utf8")
+# print(employee_file.read())
+# employee_file.close()
+
+#Well... 자꾸 터미널 오류가 일어나서, 아무리 보아도, 코드가 맞는데 이상하다 싶으면, 터미널 강.종하고 다시 시작해보도록
+#생각보다 error가 자주일어날 수있음을 명심하도록. 디버깅 실력이 매우 중요하다.
+
+
+employee_file = open("employee.txt")
