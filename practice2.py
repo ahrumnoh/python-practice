@@ -620,8 +620,16 @@ employee_file.close()
 # print(employee_file.read())
 # employee_file.close()
 
-#Well... 자꾸 터미널 오류가 일어나서, 아무리 보아도, 코드가 맞는데 이상하다 싶으면, 터미널 강.종하고 다시 시작해보도록
-#생각보다 error가 자주일어날 수있음을 명심하도록. 디버깅 실력이 매우 중요하다.
+# Well... 자꾸 터미널 오류가 일어나서, 아무리 보아도, 코드가 맞는데 이상하다 싶으면, 터미널 강.종하고 다시 시작해보도록
+# 생각보다 error가 자주일어날 수있음을 명심하도록. 디버깅 실력이 매우 중요하다.
 
 
-employee_file = open("employee.txt")
+employee_file = open("employee.txt", "r", encoding="utf8")
+print(employee_file.readline())
+print(employee_file.readline())
+print(employee_file.readline())
+print(employee_file.readline())
+
+employee_file.close()
+
+# if I recall the information individually from external text, the difference between lines, having a space 🤔 because this function focuses on each line, not a whole paragraph.
