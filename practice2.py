@@ -600,18 +600,22 @@
 # print("english : 40", file=score_file1)
 # score_file1.close()
 
-employee_file = open("employee.txt", "w", encoding="utf8")
-print("name: ahrum", "position: staff", file=employee_file)
-print("name: jack", "position: engineer", file=employee_file)
-employee_file.close()
 
 
-# practice til line 1007 of practice.py
+#######################################################
 
-employee_file = open("employee.txt", "a", encoding="utf8")
-employee_file.write("name: Miranda position: CEO")
-employee_file.write("\nname: Gabrielle position:CIO")
-employee_file.close()
+# employee_file = open("employee.txt", "w", encoding="utf8")
+# print("name: ahrum", "position: staff", file=employee_file)
+# print("name: jack", "position: engineer", file=employee_file)
+# employee_file.close()
+
+
+# # practice til line 1007 of practice.py
+
+# employee_file = open("employee.txt", "a", encoding="utf8")
+# employee_file.write("name: Miranda position: CEO")
+# employee_file.write("\nname: Gabrielle position:CIO")
+# employee_file.close()
 
 # very interesting point. "w" and "a" modes are different to write something. there is no need to put "," as "w" function has above.
 
@@ -624,12 +628,25 @@ employee_file.close()
 # 생각보다 error가 자주일어날 수있음을 명심하도록. 디버깅 실력이 매우 중요하다.
 
 
-employee_file = open("employee.txt", "r", encoding="utf8")
-print(employee_file.readline())
-print(employee_file.readline())
-print(employee_file.readline())
-print(employee_file.readline())
+# employee_file = open("employee.txt", "r", encoding="utf8")
+# print(employee_file.readline())
+# print(employee_file.readline())
+# # print(employee_file.readline())
+# # print(employee_file.readline())
 
-employee_file.close()
+# employee_file.close()
 
 # if I recall the information individually from external text, the difference between lines, having a space 🤔 because this function focuses on each line, not a whole paragraph.
+
+
+# employee_file = open("employee.txt", "r", encoding="utf8")
+# while True:  # while은 무한루프
+#     line = employee_file.readline()
+#     if not line:
+#         break  # 라인이 다 끝나면, 종료하고 나와라라는 뜻
+#     # print(line)
+#     print(line, end="")  # if you dont want to put a space between lines
+# employee_file.close()
+
+
+#Line 1057 at practice.py
