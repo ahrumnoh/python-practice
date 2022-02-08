@@ -601,7 +601,6 @@
 # score_file1.close()
 
 
-
 #######################################################
 
 # employee_file = open("employee.txt", "w", encoding="utf8")
@@ -649,4 +648,35 @@
 # employee_file.close()
 
 
-#Line 1057 at practice.py
+# Line 1057 at practice.py
+
+
+# import pickle
+
+# profile_file1 = open("profile1.pickle", "wb")
+# profile1 = {"name": "samsung", "manufacturue": "Korea", "Design": ["flowers", "butterflies", "hearts"]}
+# print(profile1)
+# pickle.dump(profile1, profile_file1)
+
+# profile_file1.close()
+
+
+# import pickle
+# profile_file1 = open("profile1.pickle", "rb")
+# profile1 = pickle.load(profile_file1)
+# print(profile1)
+# profile_file1.close()
+
+
+# import pickle
+# with open("profile1.pickle", "rb") as profile_file1:
+#     print(pickle.load(profile_file1))
+
+# with open("studytime.txt", "w", encoding="utf8") as studytime_file:
+#     studytime_file.write("I love studying and working hard for my life. I am still alive :)")
+
+
+# with open ("studytime.txt", "r", encoding="utf8") as studytime_file:
+#     print(studytime_file.read())
+
+# line 1103
