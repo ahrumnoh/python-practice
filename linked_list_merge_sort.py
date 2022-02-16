@@ -9,6 +9,8 @@ def merge_sort(linked_list):
 
 
     Returns a sorted linked list
+
+    Runs in O(kn log n)
     """
 
     if linked_list.size() == 1:
@@ -26,13 +28,13 @@ def merge_sort(linked_list):
 def split(linked_list):
     """
     Divide the unsorted list at midpoint into sublists
+    Takes O(k log n) time
     """
     if linked_list == None or linked_list.head == None:
         left_half = linked_list
         right_half = None
 
         return left_half, right_half
-
     else:
         size = linked_list.size()
         mid = size // 2
@@ -52,6 +54,7 @@ def merge(left, right):
 
     Merges two linked lists, sorting by data in nodes
     Returns a new, merged list
+    Runs in O(n) time
     """
 
     # create a new linked list that contains nodes from
@@ -120,7 +123,7 @@ l.add(200)
 
 print(l)
 sorted_linked_list = merge_sort(l)
-print(sorted_linked_list)
+print(sorted_linked_list)  # does not work
 
 
 # something wrong. must be reviewed as well.

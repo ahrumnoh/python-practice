@@ -1,6 +1,3 @@
-from platform import node
-
-
 class Node:
     """
     An objext for storing a single node of a linked list.
@@ -85,7 +82,9 @@ class LinkedList:
             current = self.head
 
             while position > 1:
-                current = node.next_node
+                current = (
+                    Node.next_node
+                )  # there is weird function. it does not work properly, node. so I put Node instead of node
                 position -= 1
 
             prev_node = current
